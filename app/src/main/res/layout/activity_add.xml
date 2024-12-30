@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Add">
+
+    <TextView
+        android:id="@+id/Add2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="21dp"
+        android:text="Add Session"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/Session"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:hint="Session"
+        android:textSize="16dp"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/Price2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Price"
+        android:minHeight="48dp"
+        android:textSize="16dp"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/saveB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:textSize="20dp"
+        android:backgroundTint="#FAD907"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/BackAdmin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:textSize="20dp"
+        android:backgroundTint="#FAD907"
+        android:textColor="@color/black" />
+
+
+</LinearLayout>

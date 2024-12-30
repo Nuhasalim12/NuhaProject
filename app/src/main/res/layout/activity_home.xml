@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".home">
+
+    <TextView
+        android:id="@+id/Welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome To Flex Gym"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="@color/black" />
+
+
+    <Button
+        android:id="@+id/BookC"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:backgroundTint="#FAD907"
+        android:gravity="center"
+        android:text="Book a Class"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="170dp"
+        tools:layout_editor_absoluteY="380dp" />
+
+    <Button
+        android:id="@+id/Ad12"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Admin"
+        android:backgroundTint="#FAD907"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginTop="8dp"
+        tools:layout_editor_absoluteX="170dp"
+        tools:layout_editor_absoluteY="430dp" />
+
+    <Button
+        android:id="@+id/LogO1"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Log Out"
+        android:backgroundTint="#FAD907"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="8dp"
+        tools:layout_editor_absoluteX="170dp"
+        tools:layout_editor_absoluteY="430dp" />
+
+  </LinearLayout>

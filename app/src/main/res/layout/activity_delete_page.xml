@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".DeletePage">
+
+    <TextView
+        android:id="@+id/Delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete Session"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="19dp" />
+
+    <EditText
+        android:id="@+id/DSession"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:hint="Session"
+        android:textSize="16dp"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/DPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Price"
+        android:minHeight="48dp"
+        android:textSize="16dp"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/SDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:textSize="20dp"
+        android:backgroundTint="#FAD907"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/Back5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:textSize="20dp"
+        android:backgroundTint="#FAD907"
+        android:textColor="@color/black" />
+
+  </LinearLayout
+   >

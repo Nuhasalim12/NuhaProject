@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "26340899783",
+    "project_id": "flexgym-33007",
+    "storage_bucket": "flexgym-33007.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:26340899783:android:c84e605f202e50dc3a77e2",
+        "android_client_info": {
+          "package_name": "com.example.flexgym"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCb8JxGtgtj-jXE7NnnSbHNaENU-meNGaM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

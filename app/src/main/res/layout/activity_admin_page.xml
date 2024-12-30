@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".AdminPage">
+
+    <Button
+        android:id="@+id/AddS"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FAD907"
+        android:textColor="@color/black"
+        android:layout_marginBottom="12dp"
+        android:textSize="20dp"
+        android:text="Add Session" />
+
+    <Button
+        android:id="@+id/DeleteS"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FAD907"
+        android:textColor="@color/black"
+        android:layout_marginBottom="12dp"
+        android:textSize="20dp"
+        android:text="Delete Session" />
+
+    <Button
+        android:id="@+id/UpdateSS"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FAD907"
+        android:textColor="@color/black"
+        android:layout_marginBottom="12dp"
+        android:textSize="20dp"
+        android:text="Update Session" />
+
+    <Button
+        android:id="@+id/BackHome"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FAD907"
+        android:textColor="@color/black"
+        android:layout_marginBottom="12dp"
+        android:textSize="20dp"
+        android:text="Back " />
+</LinearLayout>

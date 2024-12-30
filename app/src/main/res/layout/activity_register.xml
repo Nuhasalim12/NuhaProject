@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Register">
+
+
+
+  <TextView
+      android:id="@+id/register"
+      android:layout_width="450dp"
+      android:layout_height="50dp"
+      android:layout_marginBottom="20dp"
+      android:gravity="center"
+      android:text="REGISTER"
+      android:textSize="24sp"
+      android:textColor="@color/white"
+      android:textStyle="bold" />
+
+  <EditText
+      android:id="@+id/Name"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="15dp"
+      android:background="@drawable/border"
+      android:drawableStart="@drawable/icon_people_24"
+      android:drawableTint="#F2899A"
+      android:gravity="center"
+      android:hint="Your Name"
+      android:inputType="text"
+      android:padding="15dp"
+      android:textColor="@color/black"
+      android:textColorHint="@color/black" />
+
+
+  <EditText
+      android:id="@+id/phoneNum"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="15dp"
+      android:background="@drawable/border"
+      android:drawableStart="@drawable/icon_people_24"
+      android:drawableTint="#F2899A"
+      android:hint="Your Phone Number"
+      android:gravity="center"
+      android:inputType="phone"
+      android:padding="16dp"
+      android:textColor="@color/black"
+      android:textColorHint="@color/black" />
+
+
+  <EditText
+      android:id="@+id/YEmail"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="15dp"
+      android:gravity="center"
+      android:background="@drawable/border"
+      android:drawableStart="@drawable/ic_email_24"
+      android:drawableTint="#F2899A"
+      android:hint="Your Email"
+      android:inputType="textEmailAddress"
+      android:padding="15dp"
+      android:textColor="@color/black"
+      android:textColorHint="@color/black" />
+
+
+  <EditText
+      android:id="@+id/YPassword"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="15dp"
+      android:background="@drawable/border"
+      android:drawableStart="@drawable/ic_password_24"
+      android:drawableTint="#F2899A"
+      android:gravity="center"
+      android:hint="Password"
+      android:inputType="textPassword"
+      android:padding="15dp"
+      android:textColor="@color/black"
+      android:textColorHint="@color/black" />
+
+  <EditText
+      android:id="@+id/confirmPass"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="30dp"
+      android:background="@drawable/border"
+      android:drawableStart="@drawable/ic_password_24"
+      android:drawableTint="#F2899A"
+      android:gravity="center"
+      android:hint="Confirm Password"
+      android:inputType="textPassword"
+      android:padding="15dp"
+      android:textColor="@color/black"
+      android:textColorHint="@color/black" />
+
+  <Button
+      android:id="@+id/regBTN"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Register"
+      android:textSize="18dp"
+      android:backgroundTint="#FAD907"
+      android:textColor="@color/black"
+      android:layout_marginTop="8dp"/>
+
+  <TextView
+      android:id="@+id/LogLink"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="0.1dp"
+      android:gravity="center"
+      android:text="Already have an account? Login"
+      android:textColor="@color/white"
+      android:textSize="16sp" />
+
+  <ProgressBar
+      android:id="@+id/progressB"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:visibility="gone" />
+
+  </LinearLayout>
